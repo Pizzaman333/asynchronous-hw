@@ -1,0 +1,242 @@
+body {
+  text-align: center;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0003;
+}
+
+h1 {
+  color: #333;
+}
+
+#messages {
+  color: #555;
+  font-size: 18px;
+}
+
+.message {
+  margin-top: 7px;
+}
+
+.button-start {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color .3s, transform .2s;
+  display: inline-block;
+}
+
+.button-start:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.button-start:active {
+  background-color: #3e8e41;
+  transform: scale(1);
+}
+
+.animations {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 600px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px #0003;
+}
+
+#box-list {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.animated-box {
+  background-color: #ff5722;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  transition: transform .3s, background-color .3s;
+}
+
+.animated-box:first-child {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
+
+.animated-box:nth-child(2) {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.animated-box:nth-child(3) {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+.animated-box:nth-child(4) {
+  position: absolute;
+  bottom: 180px;
+  right: 250px;
+}
+
+.animations-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color .3s, transform .2s;
+  display: inline-block;
+}
+
+.animations-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.animations-button:active {
+  background-color: #3e8e41;
+  transform: scale(1);
+}
+
+.game {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 600px;
+  height: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0003;
+}
+
+.game-title {
+  margin-bottom: 10px;
+}
+
+.game-start {
+  color: #fff;
+  cursor: pointer;
+  z-index: 30;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color .3s, transform .2s;
+  display: inline-block;
+}
+
+.game-start:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.game-start:active {
+  background-color: #3e8e41;
+  transform: scale(1);
+}
+
+.container {
+  max-width: 100%;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+}
+
+.target {
+  cursor: pointer;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: absolute;
+}
+
+.overlay-text {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  display: none;
+  position: absolute;
+  top: 110px;
+  left: 45px;
+}
+
+.time-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 400px;
+  height: 210px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0003;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#startButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color .3s, transform .2s;
+  display: inline-block;
+}
+
+#startButton:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#startButton:active {
+  background-color: #3e8e41;
+  transform: scale(1);
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=asynchronous-hw.4d663569.css.map */
