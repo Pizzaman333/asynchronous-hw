@@ -9,7 +9,38 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+    <section id="app">
+        <h1>Таймер Інтервалу</h1>
+        <button class="button-start">Запустити</button>
+        <div id="messages"></div>
+      </section>
+      <section class="animations">
+        <button class="animations-button">Запустити / зупинити</button>
+        <ul id="box-list">
+            <li class="animated-box"></li>
+            <li class="animated-box"></li>
+            <li class="animated-box"></li>
+            <li class="animated-box"></li>
+          </ul>   
+      </section>
+
+      <section class="game">
+        <button class="game-start">Запустити</button>
+        <h2 class="game-title">Натискай на кнопку!</h2>
+        <p>Часу залишилось: <span id="time">10</span>с | Рахунок: <span id="score">0</span></p>
+        <div class="container" id="game-container">
+            <button class="target" id="target-button"></button>
+                <p class="overlay-text">Game Over! Your score: 10</p>
+        </div>
+      </section>
+
+
+      <div class="time-container">
+        <h2>Контроль часу</h2>
+        <input type="number" id="timeInput" placeholder="Введіть час у секундах">
+        <button id="startButton">Почати</button>
+        <p id="message"></p>
+    </div>
 
     <script type="module" src="./main.js"></script>
 </body>
